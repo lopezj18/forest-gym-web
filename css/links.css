@@ -1,0 +1,63 @@
+.a-link{
+	padding: 13px 10px;
+	-o-transition:color .4s ease-out, background .4s ease-in, border-top .4s ease-in;
+  -ms-transition:color .4s ease-out, background .4s ease-in, border-top .4s ease-in;
+  -moz-transition:color .4s ease-out, background .4s ease-in, border-top .4s ease-in;
+  -webkit-transition:color .4s ease-out, background .4s ease-in, border-top .4s ease-in;
+  transition:color .4s ease-out, background .4s ease-in, border-top .4s ease-in;
+}
+.nav-li{
+	-o-transition:background .4s ease-in;
+  -ms-transition:background .4s ease-in;
+  -moz-transition:background .4s ease-in;
+  -webkit-transition:background .4s ease-in;
+  transition:background .4s ease-in,border-top .4s ease-in;
+}
+
+a{
+	text-decoration:none;
+	
+}
+
+.portfolio-link:link {color:#DDC200;}      /* unvisited link */
+.portfolio-link:visited {color:#DDC200;}  /* visited link */
+.portfolio-link:hover {color:#70a233; border-bottom:solid 2px #FFFF33; }  /* mouse over link */
+.portfolio-link:active {color:#70a233;}  /* selected link */
+
+.nav-li:link {color:white;}      /* unvisited link */
+.nav-li:visited {color:white;}  /* visited link */
+.nav-li:hover {background-color:#004100;}  /* mouse over link */
+.nav-li:active {color:#70a233;}  /* selected link */
+
+.a-link:link {color:white;}      /* unvisited link */
+.a-link:visited {color:white;}  /* visited link */
+.a-link:hover {color:#EEFFEC; }  /* mouse over link */
+.a-link:active {color:#EEFFEC;}  /* selected link */
+
+
+
+@media screen and (min-width:680px){
+.nav-li:link {color:white;}      /* unvisited link */
+.nav-li:visited {color:white;}  /* visited link */
+.nav-li:hover {padding:10px 0;color:#70a233;background-color:#004100; border-top:solid 6px #FFFF33; transition:background .4s ease-out,border-top .4s ease-out;}  /* mouse over link */
+.nav-li:active {color:#70a233;}  /* selected link */
+	
+	
+}
+
+
+@media screen and (min-width:960px){
+	
+	
+	
+}
+
+
+@media screen and (min-width:1290px){
+.a-link:link {color:#333;}  
+.a-link:visited {color:#333;}  
+.a-link:hover {color:#70a233; border-bottom:solid 2px #FFFF33;} 
+.a-link:active {color:#70a233;} 
+	
+	
+}
